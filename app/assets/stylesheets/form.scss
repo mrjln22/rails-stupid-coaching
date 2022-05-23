@@ -1,0 +1,49 @@
+.answer {
+  background-color: rgb(228, 228, 118);
+  border-left: 5px solid grey;
+  padding-left: 25px;
+  box-shadow: 5px 5px lightblue;
+}
+.answer p {
+  font-style: italic;
+}
+
+.question {
+  background-color: rgb(251, 251, 233);
+  border-left: 5px solid grey;
+  padding-left: 25px;
+  box-shadow: 5px 5px lightblue;
+}
+
+.question p {
+  font-style: italic;
+}
+
+a {
+ text-decoration: none;
+ color: blue
+}
+
+button {
+  background-color: #008CBA;;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 0px 12px 12px 0px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.input {
+   display: flex;
+}
+
+body {
+  margin: 150px;
+}

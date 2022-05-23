@@ -1,0 +1,16 @@
+<!-- The answer.html.erb will display the question you ask your coach as well as his answer.-->
+
+<div class="question">
+  <%=@question%>
+  <p>- You</p>
+</div>
+
+<div class="answer">
+  <%=@respons%>
+  <p>- Your coach</p>
+</div>
+
+<div class="footnote">
+  <%= link_to "Go ask some more", form_path %>
+</div>
+<!-- Add a link to /ask on the answer.html.erb view using the link_to Rails helper. -->
